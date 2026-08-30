@@ -37,6 +37,9 @@ outputs/
 # Env / secrets
 .env
 .env.*
+!.env.example
+*.pem
+*.key
 
 # Coverage / test
 .coverage
